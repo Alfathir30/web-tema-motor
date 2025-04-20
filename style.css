@@ -1,162 +1,137 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-  }
-  body {
-    background: #111;
-    color: #fff;
-  }
-  nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    background: #222;
-    flex-wrap: wrap;
-  }
-  nav a {
-    color: #fff;
-    margin: 0 10px;
-    text-decoration: none;
-  }
-  nav .logo {
-    font-weight: bold;
-    font-size: 1.2rem;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
 
-  footer {
-    background-color: #1a1a1a;
-    text-align: center;
-    padding: 10px;
-    font-size: 0.9em;
-    margin-top: 30px;
-  }
-  
-  
-  .bg {
-    background: url('motor2.jpg') no-repeat center center/cover;
-    height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-  }
-  .text{
-    background: rgba(0, 0, 0, 0.6);
-    padding: 40px;
-    text-align: center;
-    border-radius: 15px;
-  }
-  .btn {
-    background: #ff3c00;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background 0.3s ease;
-    display: inline-block;
-  }
-  .card {
-    background: #333;
-    border-radius: 10px;
-    padding: 1rem;
-    width: 300px;
-    transition: 0.3s;
-    cursor: pointer;
-  }
-  .card:hover {
-    background: #444;
-  }
-  .card img {
-    width: 100%;
-    border-radius: 10px;
-  }
-  .card h3 {
-    margin-top: 0.5rem;
-  }
-  .card p {
-    font-size: 0.9rem;
-    color: #aaa;
-  }
-  
-  .form-card {
-    background: #222;
-    padding: 2rem;
-    border-radius: 10px;
-    width: 90%;
-    max-width: 400px;
-    margin: auto;
-    margin-top: 3rem;
-  }
-  .form-card h2 {
-    text-align: center;
-    margin-bottom: 1rem;
-  }
-  .form-card input {
-    width: 100%;
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-    border: none;
-    border-radius: 5px;
-  }
-  .form-card button {
-    width: 100%;
-    padding: 0.5rem;
-    border: none;
-    border-radius: 5px;
-    background: #e91e63;
-    color: #fff;
-    font-weight: bold;
-  }
-  .asep{
-    background-color: #222;
-  }
-  
-  /* Responsive */
-  @media(max-width: 600px) {
-    nav {
-      flex-direction: column;
-      align-items: center;
-    }
-  }
-  
-  /* Animation */
-  .fade-in .btn {
-    animation: fadeIn 1s ease-in-out;
-  }
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-  body {
-    animation: fadeBody 1.2s ease;
-  }
-  
-  @keyframes fadeBody {
-    from {
-      opacity: 0;
-      transform: translateY(10px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  .card,
-  .form-card,
-  nav,
-  .container h1 {
-    animation: fadeIn 1s ease-in-out;
-  }
+body {
+  background: #111;
+  color: #fff;
+  animation: fadeBody 1.2s ease;
+}
 
-  
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: #222;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav .logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+footer {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+  margin-top: 30px;
+}
+
+.bg {
+  background: url('motor2.jpg') no-repeat center center/cover;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.text {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.btn {
+  background: #ff3c00;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  display: inline-block;
+}
+
+.card {
+  background: #333;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 300px;
+  transition: 0.3s;
+  cursor: pointer;
+  text-align: center;
+}
+
+.card:hover {
+  background: #444;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin-top: 0.5rem;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.form-card {
+  background: #222;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.form-card h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form-card input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.form-card button {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background: #e91e63;
+  color: #fff;
+  font-weight: bold;
+}
+
+.asep {
+  background-color: #222;
+}
+
 /* Navbar Default */
 .navbar ul {
   list-style: none;
@@ -180,14 +155,14 @@
   cursor: pointer;
 }
 
-/* Responsive behavior */
+/* Responsive Navbar */
 @media (max-width: 768px) {
   .menu {
-    display: block; /* Tombol muncul di HP */
+    display: block;
   }
 
   .navbar {
-    display: none; /* Sembunyikan nav awalnya di HP */
+    display: none;
     flex-direction: column;
     background-color: #222222;
     position: absolute;
@@ -198,7 +173,7 @@
   }
 
   .navbar.show {
-    display: flex; /* Muncul pas tombol diklik */
+    display: flex;
   }
 
   .navbar ul {
@@ -206,3 +181,93 @@
     gap: 10px;
   }
 }
+
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Animation */
+.fade-in .btn {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeBody {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card,
+.form-card,
+nav,
+.container h1 {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* ======= BAGIAN TAMBAHAN UNTUK ANGGOTA.HTML ======= */
+.container {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.cardd {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.cardd .card {
+  width: 180px;
+  padding: 1rem;
+  background: #333;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.cardd .card:hover {
+  transform: scale(1.05);
+}
+
+.cardd .card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.cardd .card h3 {
+  margin: 0.5rem 0 0.2rem;
+  font-size: 1rem;
+}
+
+.cardd .card p {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+/* ======= SELESAI ANGGOTA.HTML ======= */

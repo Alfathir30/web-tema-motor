@@ -1,10 +1,35 @@
 // Data Profil
 const profiles = {
-  Marvel: 'Hobi: Coding, Nonton, Riding',
-  Adit: 'Hobi: Modif Motor, Bikin Knalpot Custom',
-  Rizky: 'Hobi: Touring, Bikin Konten',
-  Bima: 'Hobi: Fotografi, Hunting Motor Unik'
+  "Alif Marvel Al-Fathir": {
+    namaPanggilan: "Marvel",
+    sekolah: "SMK Vinama 2",
+    Kelas: "X Tkj 2",
+    alamat: "Jl.Kenanga 4 Blok C7 No 4",
+    hobi: "-"
+  },
+  "Risyad Ibrahim": {
+    namaPanggilan: "Icad",
+    sekolah: "SMK Vinama 2",
+    Kelas: "X Tkj 2",
+    alamat: "Jl.Kenanga 7 Blok C6 No.16",
+    hobi: "-"
+  },
+  "Fakhri Hibatulah": {
+    namaPanggilan: "Ciko",
+    sekolah: "SMK Vinama 2",
+    Kelas: "X Tkj 2",
+    alamat: "Taman Harapan Baru",
+    hobi: "-"
+  },
+  "Rofi Rijalsani": {
+    namaPanggilan: "Rofi",
+    sekolah: "SMK Vinama 2",
+    Kelas: "X Tkj 2",
+    alamat: "Kaliabang Ilir",
+    hobi: "-"
+  }
 };
+
 
 // Fungsi untuk redirect ke profil.html dan simpan nama di localStorage
 function showProfile(nama) {
@@ -18,9 +43,14 @@ window.addEventListener('DOMContentLoaded', () => {
   const selected = localStorage.getItem('selectedProfile');
 
   if (box && selected && profiles[selected]) {
+    const data = profiles[selected];
     box.innerHTML = `
       <h2>${selected}</h2>
-      <p>${profiles[selected]}</p>
+      <p><strong>Nama Panggilan:</strong> ${data.namaPanggilan}</p>
+      <p><strong>Sekolah:</strong> ${data.sekolah}</p>
+      <p><strong>Kelas:</strong> ${data.Kelas}</p>
+      <p><strong>Alamat:</strong> ${data.alamat}</p>
+      <p><strong>Hobi:</strong> ${data.hobi}</p>
     `;
   }
 });
