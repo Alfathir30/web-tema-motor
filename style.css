@@ -158,10 +158,6 @@
 
   
 /* Navbar Default */
-.asep h1{
-  display: flex;
-  justify-content: center;
-}
 .navbar ul {
   list-style: none;
   display: flex;
