@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anggota</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="asep">
+      <h1>🏍️ Motor Brotherhood</h1>
+      <nav>
+        <button id="menu" class="menu" style="color: white;">☰</button>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <a href="index.html">Home</a>
+            <a href="anggota.html">Anggota</a>
+            <a href="profil.html">Profil</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+          </ul>
+        </nav>
+      </nav>
+    </div>
+  </header>
+
+  <section class="container">
+    <div class="cardd">
+      <div class="card" onclick="showProfile('Alif Marvel Al-Fathir')">
+        <img src="marvel.jpg" alt="Marvel" draggable="false"/>
+        <h3>Alif Marvel</h3>
+        <p>🖥️ Develop</p>
+      </div>
+      <div class="card" onclick="showProfile('Risyad Ibrahim Pamungkas')">
+        <img src="icad.jpg" alt="Icad" draggable="false"/>
+        <h3>Icad Ibrahim</h3>
+        <p>🛠️ Project Manager</p>
+      </div>
+      <div class="card" onclick="showProfile('Fakhri Hibatullah')">
+        <img src="cilok.jpg" alt="Cilok" draggable="false"/>
+        <h3>Fakhri  Hibatulah</h3>
+        <p>🎨UI/UX Designer</p>
+      </div>
+      <div class="card" onclick="showProfile('Rofi Rijal sani')">
+        <img src="rofi.jpg" alt="Rofi" draggable="false"/>
+        <h3>Rofi Rijalsani</h3>
+        <p>🖥️ Develop</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
