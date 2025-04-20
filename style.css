@@ -132,6 +132,11 @@ footer {
   background-color: #222;
 }
 
+.asep h1{
+  display: flex;
+  justify-content: center;
+}
+
 /* Navbar Default */
 .navbar ul {
   list-style: none;
