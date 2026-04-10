@@ -1,0 +1,36 @@
+{
+  "profile": {
+    "name": "Alif Marvel",
+    "nickname": "Marvel",
+    "status": "Student at SMK VINAMA 2",
+    "major": "Teknik Komputer dan Jaringan (TKJ)",
+    "location": "Bekasi, West Java",
+    "bio": "Tech enthusiast focusing on networking, server management, and customizing Linux distros. Currently building Yoolix.",
+    "avatar_url": "https://github.com/Alfathir30.png"
+  },
+  "skills": {
+    "networking": ["Cisco Packet Tracer", "MikroTik", "Subnetting", "DHCP Server"],
+    "operating_systems": ["Arch Linux", "Ubuntu", "Windows Server", "CasaOS"],
+    "tools": ["GitHub", "Docker", "VS Code", "Nginx Proxy Manager"]
+  },
+  "projects": [
+    {
+      "name": "Yoolix",
+      "description": "Custom Arch Linux based distribution with personal branding.",
+      "status": "In Progress"
+    },
+    {
+      "name": "Home Server",
+      "description": "Personal NAS and web hosting environment using CasaOS.",
+      "status": "Active"
+    }
+  ],
+  "socials": {
+    "github": "https://github.com/Alfathir30",
+    "email": "alifmarvel30@gmail.com"
+  },
+  "gaming_corner": {
+    "favorite_games": ["One Piece Bounty Rush", "Roblox"],
+    "motorcycle": "Yamaha Jupiter MX 135 Old"
+  }
+}
